@@ -1,0 +1,10 @@
+
+Handle signups on the site
+Handle login for any signed-up user on the site
+
+Two ways to do signup: either create a new page ("signup.html") OR
+just add another button to the login page
+
+Don't allow duplicate usernames in storage
+
+Be aware of when your server restarts!

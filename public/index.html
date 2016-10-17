@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Submitify</title>
+	<script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="./index_front.js"></script>
+</head>
+<body>
+	<div id="project_template" style="display: none;">
+		<h3 class="project_name"></h3>
+		<p class="project_author"></p>
+		<p class="project_description"></p>
+		<button class="project_vote">Vote</button>
+	</div>
+	<div id="projects"></div>
+
+	<div>
+		<p>Name: <input id="new_project_name"></p>
+		<p>Description: <textarea id="new_project_description"></textarea></p>
+		<p><button id="send_new_project">Submit Project</button></p>
+		<button id="logout">Log Out</button>
+	</div>
+</body>
+</html>
